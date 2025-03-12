@@ -2,8 +2,10 @@ version: 2
 
 models:
   - name: stg_stripe__payment
+    description: One row per payment made
     columns:
       - name: payment_id
+        description: Primary key
         data_tests:
           - unique
           - not_null
