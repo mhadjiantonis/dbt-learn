@@ -19,7 +19,7 @@ models:
         data_tests:
           - accepted_values:
               values: ['credit_card', 'bank_transfer', 'coupon', 'gift_card']
-      - name: status
+      - name: payment_status
         data_tests:
           - accepted_values:
               values: ['success', 'fail']
